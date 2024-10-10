@@ -1,0 +1,2286 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.text--dark {
+  color: black;
+}
+
+.bg--dark {
+  background-color: black;
+}
+
+.text--light {
+  color: #fff;
+}
+
+.bg--light {
+  background-color: #fff;
+}
+
+.text--primary {
+  color: #516AEE;
+}
+
+.bg--primary {
+  background-color: #516AEE;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--justify {
+  text-align: justify;
+}
+
+.m--0 {
+  margin: 0rem;
+}
+
+.mb--0 {
+  margin-bottom: 0rem;
+}
+
+.mt--0 {
+  margin-top: 0rem;
+}
+
+.ml--0 {
+  margin-left: 0rem;
+}
+
+.mr--0 {
+  margin-right: 0rem;
+}
+
+.my--0 {
+  margin: 0rem 0;
+}
+
+.mx--0 {
+  margin: 0 0rem;
+}
+
+.p--0 {
+  padding: 0rem;
+}
+
+.pb--0 {
+  padding-bottom: 0rem;
+}
+
+.pt--0 {
+  padding-top: 0rem;
+}
+
+.pl--0 {
+  padding-left: 0rem;
+}
+
+.pr--0 {
+  padding-right: 0rem;
+}
+
+.py--0 {
+  padding: 0rem 0;
+}
+
+.px--0 {
+  padding: 0 0rem;
+}
+
+.m--1 {
+  margin: 1rem;
+}
+
+.mb--1 {
+  margin-bottom: 1rem;
+}
+
+.mt--1 {
+  margin-top: 1rem;
+}
+
+.ml--1 {
+  margin-left: 1rem;
+}
+
+.mr--1 {
+  margin-right: 1rem;
+}
+
+.my--1 {
+  margin: 1rem 0;
+}
+
+.mx--1 {
+  margin: 0 1rem;
+}
+
+.p--1 {
+  padding: 1rem;
+}
+
+.pb--1 {
+  padding-bottom: 1rem;
+}
+
+.pt--1 {
+  padding-top: 1rem;
+}
+
+.pl--1 {
+  padding-left: 1rem;
+}
+
+.pr--1 {
+  padding-right: 1rem;
+}
+
+.py--1 {
+  padding: 1rem 0;
+}
+
+.px--1 {
+  padding: 0 1rem;
+}
+
+.m--2 {
+  margin: 2rem;
+}
+
+.mb--2 {
+  margin-bottom: 2rem;
+}
+
+.mt--2 {
+  margin-top: 2rem;
+}
+
+.ml--2 {
+  margin-left: 2rem;
+}
+
+.mr--2 {
+  margin-right: 2rem;
+}
+
+.my--2 {
+  margin: 2rem 0;
+}
+
+.mx--2 {
+  margin: 0 2rem;
+}
+
+.p--2 {
+  padding: 2rem;
+}
+
+.pb--2 {
+  padding-bottom: 2rem;
+}
+
+.pt--2 {
+  padding-top: 2rem;
+}
+
+.pl--2 {
+  padding-left: 2rem;
+}
+
+.pr--2 {
+  padding-right: 2rem;
+}
+
+.py--2 {
+  padding: 2rem 0;
+}
+
+.px--2 {
+  padding: 0 2rem;
+}
+
+.m--3 {
+  margin: 3rem;
+}
+
+.mb--3 {
+  margin-bottom: 3rem;
+}
+
+.mt--3 {
+  margin-top: 3rem;
+}
+
+.ml--3 {
+  margin-left: 3rem;
+}
+
+.mr--3 {
+  margin-right: 3rem;
+}
+
+.my--3 {
+  margin: 3rem 0;
+}
+
+.mx--3 {
+  margin: 0 3rem;
+}
+
+.p--3 {
+  padding: 3rem;
+}
+
+.pb--3 {
+  padding-bottom: 3rem;
+}
+
+.pt--3 {
+  padding-top: 3rem;
+}
+
+.pl--3 {
+  padding-left: 3rem;
+}
+
+.pr--3 {
+  padding-right: 3rem;
+}
+
+.py--3 {
+  padding: 3rem 0;
+}
+
+.px--3 {
+  padding: 0 3rem;
+}
+
+.m--4 {
+  margin: 4rem;
+}
+
+.mb--4 {
+  margin-bottom: 4rem;
+}
+
+.mt--4 {
+  margin-top: 4rem;
+}
+
+.ml--4 {
+  margin-left: 4rem;
+}
+
+.mr--4 {
+  margin-right: 4rem;
+}
+
+.my--4 {
+  margin: 4rem 0;
+}
+
+.mx--4 {
+  margin: 0 4rem;
+}
+
+.p--4 {
+  padding: 4rem;
+}
+
+.pb--4 {
+  padding-bottom: 4rem;
+}
+
+.pt--4 {
+  padding-top: 4rem;
+}
+
+.pl--4 {
+  padding-left: 4rem;
+}
+
+.pr--4 {
+  padding-right: 4rem;
+}
+
+.py--4 {
+  padding: 4rem 0;
+}
+
+.px--4 {
+  padding: 0 4rem;
+}
+
+.m--5 {
+  margin: 5rem;
+}
+
+.mb--5 {
+  margin-bottom: 5rem;
+}
+
+.mt--5 {
+  margin-top: 5rem;
+}
+
+.ml--5 {
+  margin-left: 5rem;
+}
+
+.mr--5 {
+  margin-right: 5rem;
+}
+
+.my--5 {
+  margin: 5rem 0;
+}
+
+.mx--5 {
+  margin: 0 5rem;
+}
+
+.p--5 {
+  padding: 5rem;
+}
+
+.pb--5 {
+  padding-bottom: 5rem;
+}
+
+.pt--5 {
+  padding-top: 5rem;
+}
+
+.pl--5 {
+  padding-left: 5rem;
+}
+
+.pr--5 {
+  padding-right: 5rem;
+}
+
+.py--5 {
+  padding: 5rem 0;
+}
+
+.px--5 {
+  padding: 0 5rem;
+}
+
+.m--6 {
+  margin: 6rem;
+}
+
+.mb--6 {
+  margin-bottom: 6rem;
+}
+
+.mt--6 {
+  margin-top: 6rem;
+}
+
+.ml--6 {
+  margin-left: 6rem;
+}
+
+.mr--6 {
+  margin-right: 6rem;
+}
+
+.my--6 {
+  margin: 6rem 0;
+}
+
+.mx--6 {
+  margin: 0 6rem;
+}
+
+.p--6 {
+  padding: 6rem;
+}
+
+.pb--6 {
+  padding-bottom: 6rem;
+}
+
+.pt--6 {
+  padding-top: 6rem;
+}
+
+.pl--6 {
+  padding-left: 6rem;
+}
+
+.pr--6 {
+  padding-right: 6rem;
+}
+
+.py--6 {
+  padding: 6rem 0;
+}
+
+.px--6 {
+  padding: 0 6rem;
+}
+
+.m--7 {
+  margin: 7rem;
+}
+
+.mb--7 {
+  margin-bottom: 7rem;
+}
+
+.mt--7 {
+  margin-top: 7rem;
+}
+
+.ml--7 {
+  margin-left: 7rem;
+}
+
+.mr--7 {
+  margin-right: 7rem;
+}
+
+.my--7 {
+  margin: 7rem 0;
+}
+
+.mx--7 {
+  margin: 0 7rem;
+}
+
+.p--7 {
+  padding: 7rem;
+}
+
+.pb--7 {
+  padding-bottom: 7rem;
+}
+
+.pt--7 {
+  padding-top: 7rem;
+}
+
+.pl--7 {
+  padding-left: 7rem;
+}
+
+.pr--7 {
+  padding-right: 7rem;
+}
+
+.py--7 {
+  padding: 7rem 0;
+}
+
+.px--7 {
+  padding: 0 7rem;
+}
+
+.m--8 {
+  margin: 8rem;
+}
+
+.mb--8 {
+  margin-bottom: 8rem;
+}
+
+.mt--8 {
+  margin-top: 8rem;
+}
+
+.ml--8 {
+  margin-left: 8rem;
+}
+
+.mr--8 {
+  margin-right: 8rem;
+}
+
+.my--8 {
+  margin: 8rem 0;
+}
+
+.mx--8 {
+  margin: 0 8rem;
+}
+
+.p--8 {
+  padding: 8rem;
+}
+
+.pb--8 {
+  padding-bottom: 8rem;
+}
+
+.pt--8 {
+  padding-top: 8rem;
+}
+
+.pl--8 {
+  padding-left: 8rem;
+}
+
+.pr--8 {
+  padding-right: 8rem;
+}
+
+.py--8 {
+  padding: 8rem 0;
+}
+
+.px--8 {
+  padding: 0 8rem;
+}
+
+.m--9 {
+  margin: 9rem;
+}
+
+.mb--9 {
+  margin-bottom: 9rem;
+}
+
+.mt--9 {
+  margin-top: 9rem;
+}
+
+.ml--9 {
+  margin-left: 9rem;
+}
+
+.mr--9 {
+  margin-right: 9rem;
+}
+
+.my--9 {
+  margin: 9rem 0;
+}
+
+.mx--9 {
+  margin: 0 9rem;
+}
+
+.p--9 {
+  padding: 9rem;
+}
+
+.pb--9 {
+  padding-bottom: 9rem;
+}
+
+.pt--9 {
+  padding-top: 9rem;
+}
+
+.pl--9 {
+  padding-left: 9rem;
+}
+
+.pr--9 {
+  padding-right: 9rem;
+}
+
+.py--9 {
+  padding: 9rem 0;
+}
+
+.px--9 {
+  padding: 0 9rem;
+}
+
+.m--10 {
+  margin: 10rem;
+}
+
+.mb--10 {
+  margin-bottom: 10rem;
+}
+
+.mt--10 {
+  margin-top: 10rem;
+}
+
+.ml--10 {
+  margin-left: 10rem;
+}
+
+.mr--10 {
+  margin-right: 10rem;
+}
+
+.my--10 {
+  margin: 10rem 0;
+}
+
+.mx--10 {
+  margin: 0 10rem;
+}
+
+.p--10 {
+  padding: 10rem;
+}
+
+.pb--10 {
+  padding-bottom: 10rem;
+}
+
+.pt--10 {
+  padding-top: 10rem;
+}
+
+.pl--10 {
+  padding-left: 10rem;
+}
+
+.pr--10 {
+  padding-right: 10rem;
+}
+
+.py--10 {
+  padding: 10rem 0;
+}
+
+.px--10 {
+  padding: 0 10rem;
+}
+
+.m--11 {
+  margin: 11rem;
+}
+
+.mb--11 {
+  margin-bottom: 11rem;
+}
+
+.mt--11 {
+  margin-top: 11rem;
+}
+
+.ml--11 {
+  margin-left: 11rem;
+}
+
+.mr--11 {
+  margin-right: 11rem;
+}
+
+.my--11 {
+  margin: 11rem 0;
+}
+
+.mx--11 {
+  margin: 0 11rem;
+}
+
+.p--11 {
+  padding: 11rem;
+}
+
+.pb--11 {
+  padding-bottom: 11rem;
+}
+
+.pt--11 {
+  padding-top: 11rem;
+}
+
+.pl--11 {
+  padding-left: 11rem;
+}
+
+.pr--11 {
+  padding-right: 11rem;
+}
+
+.py--11 {
+  padding: 11rem 0;
+}
+
+.px--11 {
+  padding: 0 11rem;
+}
+
+.m--12 {
+  margin: 12rem;
+}
+
+.mb--12 {
+  margin-bottom: 12rem;
+}
+
+.mt--12 {
+  margin-top: 12rem;
+}
+
+.ml--12 {
+  margin-left: 12rem;
+}
+
+.mr--12 {
+  margin-right: 12rem;
+}
+
+.my--12 {
+  margin: 12rem 0;
+}
+
+.mx--12 {
+  margin: 0 12rem;
+}
+
+.p--12 {
+  padding: 12rem;
+}
+
+.pb--12 {
+  padding-bottom: 12rem;
+}
+
+.pt--12 {
+  padding-top: 12rem;
+}
+
+.pl--12 {
+  padding-left: 12rem;
+}
+
+.pr--12 {
+  padding-right: 12rem;
+}
+
+.py--12 {
+  padding: 12rem 0;
+}
+
+.px--12 {
+  padding: 0 12rem;
+}
+
+.m--13 {
+  margin: 13rem;
+}
+
+.mb--13 {
+  margin-bottom: 13rem;
+}
+
+.mt--13 {
+  margin-top: 13rem;
+}
+
+.ml--13 {
+  margin-left: 13rem;
+}
+
+.mr--13 {
+  margin-right: 13rem;
+}
+
+.my--13 {
+  margin: 13rem 0;
+}
+
+.mx--13 {
+  margin: 0 13rem;
+}
+
+.p--13 {
+  padding: 13rem;
+}
+
+.pb--13 {
+  padding-bottom: 13rem;
+}
+
+.pt--13 {
+  padding-top: 13rem;
+}
+
+.pl--13 {
+  padding-left: 13rem;
+}
+
+.pr--13 {
+  padding-right: 13rem;
+}
+
+.py--13 {
+  padding: 13rem 0;
+}
+
+.px--13 {
+  padding: 0 13rem;
+}
+
+.m--14 {
+  margin: 14rem;
+}
+
+.mb--14 {
+  margin-bottom: 14rem;
+}
+
+.mt--14 {
+  margin-top: 14rem;
+}
+
+.ml--14 {
+  margin-left: 14rem;
+}
+
+.mr--14 {
+  margin-right: 14rem;
+}
+
+.my--14 {
+  margin: 14rem 0;
+}
+
+.mx--14 {
+  margin: 0 14rem;
+}
+
+.p--14 {
+  padding: 14rem;
+}
+
+.pb--14 {
+  padding-bottom: 14rem;
+}
+
+.pt--14 {
+  padding-top: 14rem;
+}
+
+.pl--14 {
+  padding-left: 14rem;
+}
+
+.pr--14 {
+  padding-right: 14rem;
+}
+
+.py--14 {
+  padding: 14rem 0;
+}
+
+.px--14 {
+  padding: 0 14rem;
+}
+
+.m--15 {
+  margin: 15rem;
+}
+
+.mb--15 {
+  margin-bottom: 15rem;
+}
+
+.mt--15 {
+  margin-top: 15rem;
+}
+
+.ml--15 {
+  margin-left: 15rem;
+}
+
+.mr--15 {
+  margin-right: 15rem;
+}
+
+.my--15 {
+  margin: 15rem 0;
+}
+
+.mx--15 {
+  margin: 0 15rem;
+}
+
+.p--15 {
+  padding: 15rem;
+}
+
+.pb--15 {
+  padding-bottom: 15rem;
+}
+
+.pt--15 {
+  padding-top: 15rem;
+}
+
+.pl--15 {
+  padding-left: 15rem;
+}
+
+.pr--15 {
+  padding-right: 15rem;
+}
+
+.py--15 {
+  padding: 15rem 0;
+}
+
+.px--15 {
+  padding: 0 15rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #fff;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 2rem;
+}
+
+body {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+textarea,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-family: "Playfair Display", serif;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn, .btn.bg--secondary, .btn.bg--primary {
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  padding: 1rem 2rem;
+}
+.btn.bg--primary {
+  background-color: #516AEE;
+  color: #fff;
+  font-weight: 600;
+}
+.btn.bg--primary:hover {
+  border: 1px solid black;
+  background-color: #fff;
+  color: black;
+}
+.btn.bg--secondary {
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+}
+.btn.bg--secondary:hover {
+  background-color: #516AEE;
+  color: #fff;
+}
+
+.header__nav {
+  display: flex;
+  margin-left: 5rem;
+  gap: 3rem;
+}
+.header__nav li a {
+  color: #fff;
+}
+.header__nav li a:hover, .header__nav li a.active {
+  color: #516AEE;
+}
+.header__nav img {
+  width: 15rem;
+  margin: 0.5rem 11rem;
+}
+
+.footer {
+  padding: 3rem 0;
+}
+.footer__nav {
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+.footer__nav li a {
+  color: black;
+}
+.footer__nav li a:hover, .footer__nav li a.active {
+  color: #516AEE;
+}
+.footer__nav img {
+  width: 14rem;
+  margin: 0.5rem 11.5rem;
+}
+.footer__social {
+  display: flex;
+  gap: 30.5rem;
+}
+.footer__txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5rem;
+}
+.footer__txt p {
+  color: black;
+}
+.footer__txt a {
+  color: #516AEE;
+}
+.footer__txt a:hover {
+  color: black;
+}
+.footer__icon {
+  display: flex;
+  gap: 2rem;
+}
+.footer__icon li {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.5rem;
+  color: black;
+}
+.footer__icon li:hover {
+  background-color: #516AEE;
+  color: #fff;
+}
+
+.homeBanner {
+  position: relative;
+}
+.homeBanner__wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.homeBanner__wrapper1 {
+  background: url(../../IMG/bg-to.png);
+  width: 100vw;
+  padding: 10rem 0;
+}
+.homeBanner__wrapper1 h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.homeBanner__wrapper1 p {
+  margin-bottom: 5rem;
+}
+.homeBanner__wrapper1 img {
+  position: absolute;
+  width: 15rem;
+  top: 30%;
+  left: 89%;
+}
+.homeBanner .img2 {
+  width: 100vw;
+}
+.homeBanner__wrapper2 {
+  width: 100vw;
+}
+.homeBanner__wrapper2--card {
+  padding: 2rem 0;
+  position: absolute;
+  background-color: black;
+  height: 18rem;
+  max-width: 20rem;
+  top: 30rem;
+  left: 7%;
+  rotate: 25deg;
+}
+.homeBanner__wrapper2--card .img {
+  width: 15rem;
+  padding: 0 2rem;
+}
+.homeBanner__wrapper2--card .txt {
+  text-align: left;
+  margin-left: 2rem;
+}
+.homeBanner__wrapper2--card .txt h3 {
+  font-size: 2rem;
+}
+.homeBanner__wrapper2--card .txt p {
+  font-size: 1rem;
+}
+.homeBanner__wrapper2--card:last-child {
+  z-index: 999;
+  padding: 2rem 0;
+  position: absolute;
+  background-color: #fff;
+  height: 18rem;
+  max-width: 20rem;
+  top: 68rem;
+  left: 80%;
+  rotate: -25deg;
+}
+.homeBanner__wrapper2--card:last-child .img {
+  width: 15rem;
+}
+.homeBanner__wrapper2--card:last-child .txt {
+  text-align: left;
+}
+.homeBanner__wrapper2--card:last-child .txt h3 {
+  font-size: 2rem;
+  color: black;
+}
+.homeBanner__wrapper2--card:last-child .txt p {
+  font-size: 1rem;
+  color: black;
+}
+
+.popular {
+  position: relative;
+  background-color: #fff;
+  padding: 5rem 0;
+}
+.popular__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.popular__title h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+.popular__title p {
+  margin-bottom: 3rem;
+  color: black;
+}
+.popular__wrapper--card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem 0;
+}
+.popular__card {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+.popular__card .img {
+  width: 12rem;
+}
+.popular__card .info .title {
+  color: #516AEE;
+  margin-bottom: 0.5rem;
+}
+.popular__card .info .title:hover {
+  color: black;
+}
+.popular__card .info h4 {
+  font-size: 0.9rem;
+  color: black;
+}
+.popular__card .info small {
+  color: black;
+  font-size: small;
+}
+.popular__card .info small i {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+.popular__card .info p {
+  width: 22rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.popular__card .info a {
+  color: black;
+}
+.popular__card .info a:hover {
+  color: #516AEE;
+}
+.popular .icon {
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2rem;
+  height: 3rem;
+  width: 3rem;
+  bottom: 67.5rem;
+  left: 47%;
+}
+.popular .icon:hover {
+  background-color: black;
+}
+.popular .icon:hover li {
+  color: #fff;
+}
+.popular .icon li {
+  position: relative;
+  color: black;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  bottom: 1.8rem;
+  right: 20px;
+}
+
+.adventure {
+  background-color: #fff;
+  padding: 2rem 5rem;
+}
+.adventure__title h2 {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+.adventure__img img {
+  position: relative;
+  width: 25rem;
+  border-top-left-radius: 40rem;
+  border-top-right-radius: 40rem;
+}
+.adventure__img img:last-child {
+  position: absolute;
+  border-radius: 50%;
+  width: 20rem;
+  border: 1rem solid #fff;
+  left: 30.5rem;
+  margin-top: 20rem;
+}
+.adventure__txt {
+  width: 37rem;
+}
+.adventure__txt .p1 {
+  color: black;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.adventure__txt .p2 {
+  color: black;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.adventure__card {
+  display: flex;
+  gap: 13rem;
+  margin-left: 5rem;
+}
+
+.destinations {
+  padding: 8rem 0;
+}
+.destinations__title h2 {
+  color: black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.destinations__title small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.destinations__cards {
+  margin: 3rem 5rem;
+  width: 75rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.destinations__cards .image3 {
+  height: 22.9rem;
+}
+.destinations .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -6rem;
+}
+
+.post__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.post__card {
+  margin-left: 5rem;
+}
+.post__card1 {
+  position: relative;
+}
+.post__card1 .top {
+  position: absolute;
+  top: 2rem;
+  left: 32.5rem;
+}
+.post__card1 .top .tag h4 {
+  background: #516AEE;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  height: 2.5rem;
+}
+.post__card1 .top .icon {
+  margin-left: 1rem;
+}
+.post__card1 .top .icon i {
+  padding: 1.1rem 1.5rem;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: black;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.post__card1--img img {
+  width: 42rem;
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.post__card1--txt h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.post__card1--txt p {
+  color: black;
+  width: 38.7rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.post__card1--txt h5 {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.post__card2 {
+  position: relative;
+}
+.post__card2 .tag2 {
+  z-index: 999;
+  position: absolute;
+  top: 1rem;
+  left: 13rem;
+}
+.post__card2 .tag2 h4 {
+  background: #516AEE;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  height: 2.5rem;
+}
+.post__card2--img img {
+  width: 31rem;
+  height: 25rem;
+}
+.post__card2--txt h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.post__card2--txt p {
+  color: black;
+  width: 30.7rem;
+}
+.post .column__mini .search {
+  display: flex;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+.post .column__mini .search input {
+  border: 1px solid;
+  width: 26.5rem;
+  height: 3rem;
+}
+.post .column__mini .search input:enabled {
+  padding-left: 1rem;
+}
+.post .column__mini .search i {
+  background-color: black;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.post .column__card1 {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.6rem;
+}
+.post .column__card1--img {
+  width: 10rem;
+  height: 10rem;
+}
+.post .column__card1--txt {
+  padding-top: 1.5rem;
+}
+.post .column__card1--txt h5 {
+  color: #516AEE;
+  margin-bottom: 0.7rem;
+}
+.post .column__card1--txt h4 {
+  font-size: 1rem;
+  color: black;
+  width: 15rem;
+}
+.post .column__card1--txt .date {
+  margin-top: 0.8rem;
+}
+.post .column__card1--txt .date p {
+  color: black;
+  font-weight: 600;
+}
+.post .column__card1--txt .date p i {
+  margin-right: 0.5rem;
+}
+
+.catalog__title i {
+  color: #516AEE;
+  margin-right: 0.5rem;
+}
+.catalog__title h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.catalog__title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.catalog__img {
+  display: flex;
+  position: relative;
+}
+.catalog__img img {
+  width: 100%;
+}
+
+.aboutBanner {
+  position: relative;
+}
+.aboutBanner__wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutBanner__wrapper1 {
+  background: url(../../IMG/bg-to.png);
+  width: 100vw;
+  padding: 10rem 0;
+}
+.aboutBanner__wrapper1 h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.aboutBanner__wrapper1 p {
+  margin-bottom: 5rem;
+}
+.aboutBanner__wrapper1 img {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: 90%;
+}
+.aboutBanner__wrapper1 img:last-child {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: -2%;
+}
+
+.adventure {
+  background-color: #fff;
+  padding: 2rem 5rem;
+}
+.adventure__title h2 {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+.adventure__img img {
+  position: relative;
+  width: 25rem;
+  border-top-left-radius: 40rem;
+  border-top-right-radius: 40rem;
+}
+.adventure__img img:last-child {
+  position: absolute;
+  border-radius: 50%;
+  width: 20rem;
+  border: 1rem solid #fff;
+  left: 30.5rem;
+  margin-top: 20rem;
+}
+.adventure__txt {
+  width: 37rem;
+}
+.adventure__txt .p1 {
+  color: black;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.adventure__txt .p2 {
+  color: black;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+.adventure__txt h4 {
+  color: black;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.adventure__txt .p3 {
+  color: black;
+  margin-bottom: 3rem;
+}
+.adventure__card {
+  display: flex;
+  gap: 13rem;
+  margin-left: 5rem;
+}
+
+.popular {
+  position: relative;
+  background-color: #fff;
+  padding: 5rem 0;
+}
+.popular__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.popular__title h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+.popular__title p {
+  margin-bottom: 3rem;
+  color: black;
+}
+.popular__wrapper--card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem 0;
+}
+.popular__card {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+.popular__card .img {
+  width: 12rem;
+}
+.popular__card .info .title {
+  color: #516AEE;
+  margin-bottom: 0.5rem;
+}
+.popular__card .info .title:hover {
+  color: black;
+}
+.popular__card .info h4 {
+  font-size: 0.9rem;
+  color: black;
+}
+.popular__card .info small {
+  color: black;
+  font-size: small;
+}
+.popular__card .info small i {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+.popular__card .info p {
+  width: 22rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.popular__card .info a {
+  color: black;
+  font-weight: 600;
+}
+.popular__card .info a:hover {
+  color: #516AEE;
+}
+
+.destinations {
+  padding: 8rem 0;
+}
+.destinations__title h2 {
+  color: black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.destinations__title small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.destinations__cards {
+  margin: 3rem 5rem;
+  width: 75rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.destinations__cards .image3 {
+  height: 22.9rem;
+}
+.destinations .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -6rem;
+}
+
+.post__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.post__card {
+  margin-left: 5rem;
+}
+.post__card1 {
+  position: relative;
+}
+.post__card1 .top {
+  position: absolute;
+  top: 2rem;
+  left: 32.5rem;
+}
+.post__card1 .top .tag h4 {
+  background: #516AEE;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  height: 2.5rem;
+}
+.post__card1 .top .icon {
+  margin-left: 1rem;
+}
+.post__card1 .top .icon i {
+  padding: 1.1rem 1.5rem;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: black;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.post__card1--img img {
+  width: 42rem;
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.post__card1--txt h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.post__card1--txt p {
+  color: black;
+  width: 38.7rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.post__card1--txt h5 {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.post__card2 {
+  position: relative;
+}
+.post__card2 .tag2 {
+  z-index: 999;
+  position: absolute;
+  top: 1rem;
+  left: 13rem;
+}
+.post__card2 .tag2 h4 {
+  background: #516AEE;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  height: 2.5rem;
+}
+.post__card2--img img {
+  width: 31rem;
+  height: 25rem;
+}
+.post__card2--txt h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.post__card2--txt p {
+  color: black;
+  width: 30.7rem;
+}
+.post .column__mini .search {
+  display: flex;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+.post .column__mini .search input {
+  border: 1px solid;
+  width: 26.5rem;
+  height: 3rem;
+}
+.post .column__mini .search input:enabled {
+  padding-left: 1rem;
+}
+.post .column__mini .search i {
+  background-color: black;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.post .column__card1 {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.6rem;
+}
+.post .column__card1--img {
+  width: 10rem;
+  height: 10rem;
+}
+.post .column__card1--txt {
+  padding-top: 1.5rem;
+}
+.post .column__card1--txt h5 {
+  color: #516AEE;
+  margin-bottom: 0.7rem;
+}
+.post .column__card1--txt h4 {
+  font-size: 1rem;
+  color: black;
+  width: 15rem;
+}
+.post .column__card1--txt .date {
+  margin-top: 0.8rem;
+}
+.post .column__card1--txt .date p {
+  color: black;
+  font-weight: 600;
+}
+.post .column__card1--txt .date p i {
+  margin-right: 0.5rem;
+}
+
+.catalog__title i {
+  color: #516AEE;
+  margin-right: 0.5rem;
+}
+.catalog__title h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.catalog__title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.catalog__img {
+  display: flex;
+  position: relative;
+}
+.catalog__img img {
+  width: 100%;
+}
+
+.blogBanner {
+  position: relative;
+}
+.blogBanner__wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blogBanner__wrapper1 {
+  background: url(../../IMG/bg-to.png);
+  width: 100vw;
+  padding: 10rem 0;
+}
+.blogBanner__wrapper1 h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.blogBanner__wrapper1 p {
+  margin-bottom: 5rem;
+}
+.blogBanner__wrapper1 img {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: 90%;
+}
+.blogBanner__wrapper1 img:last-child {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: -2%;
+}
+
+.popular {
+  position: relative;
+  background-color: #fff;
+  padding: 8rem 0;
+}
+.popular__wrapper--card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem 0;
+}
+.popular__card {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+.popular__card .img {
+  width: 12rem;
+}
+.popular__card .info .title {
+  color: #516AEE;
+  margin-bottom: 0.5rem;
+}
+.popular__card .info .title:hover {
+  color: black;
+}
+.popular__card .info h4 {
+  font-size: 0.9rem;
+  color: black;
+}
+.popular__card .info small {
+  color: black;
+  font-size: small;
+}
+.popular__card .info small i {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+.popular__card .info p {
+  width: 22rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.popular__card .info a {
+  color: black;
+  font-weight: 600;
+}
+.popular__card .info a:hover {
+  color: #516AEE;
+}
+
+.destinationBanner {
+  position: relative;
+}
+.destinationBanner__wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.destinationBanner__wrapper1 {
+  background: url(../../IMG/bg-to.png);
+  width: 100vw;
+  padding: 10rem 0;
+}
+.destinationBanner__wrapper1 h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.destinationBanner__wrapper1 p {
+  margin-bottom: 5rem;
+}
+.destinationBanner__wrapper1 img {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: 90%;
+}
+.destinationBanner__wrapper1 img:last-child {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: -2%;
+}
+
+.destinations {
+  padding: 8rem 0;
+}
+.destinations__title h2 {
+  color: black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.destinations__title small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.destinations__cards {
+  margin: 3rem 5rem;
+  width: 75rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.destinations__cards .image3 {
+  height: 22.9rem;
+}
+.destinations .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -6rem;
+}
+
+.catalog__title i {
+  color: #516AEE;
+  margin-right: 0.5rem;
+}
+.catalog__title h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.catalog__title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.catalog__img {
+  display: flex;
+  position: relative;
+}
+.catalog__img img {
+  width: 100%;
+}
+
+.contactBanner {
+  position: relative;
+}
+.contactBanner__wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactBanner__wrapper1 {
+  background: url(../../IMG/bg-to.png);
+  width: 100vw;
+  padding: 10rem 0;
+}
+.contactBanner__wrapper1 h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.contactBanner__wrapper1 p {
+  margin-bottom: 5rem;
+}
+.contactBanner__wrapper1 img {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: 90%;
+}
+.contactBanner__wrapper1 img:last-child {
+  position: absolute;
+  width: 15rem;
+  top: 55%;
+  left: -2%;
+}
+
+.contactInfo {
+  padding: 5rem 0;
+}
+.contactInfo__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.contactInfo__img {
+  margin-left: 5rem;
+}
+.contactInfo__img img {
+  width: 30rem;
+  height: 40rem;
+}
+.contactInfo__form {
+  padding: 4rem 0;
+}
+.contactInfo__form input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+}
+.contactInfo__form input::-moz-placeholder {
+  padding: 1rem;
+}
+.contactInfo__form input::placeholder {
+  padding: 1rem;
+}
+.contactInfo__form textarea {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 10rem;
+  padding: 1rem;
+}
+.contactInfo__form .button {
+  margin-top: 2rem;
+}
+.contactInfo__title h2 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+.contactInfo__title p {
+  color: black;
+  width: 40rem;
+  margin-bottom: 3rem;
+}
+.contactInfo .form__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.contactInfo .map {
+  margin-left: 5rem;
+}
+
+.catalog {
+  padding-top: 8rem;
+}
+.catalog__title i {
+  color: #516AEE;
+  margin-right: 0.5rem;
+}
+.catalog__title h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.catalog__title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.catalog__img {
+  display: flex;
+  position: relative;
+}
+.catalog__img img {
+  width: 100%;
+}
+
+.prev, .next {
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+  left: 1rem;
+  bottom: 11rem;
+}
+
+.next {
+  left: 116rem;
+}/*# sourceMappingURL=main.min.css.map */

@@ -1,0 +1,21 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+
+ #controls{
+    // position: absolute;
+    // right: 5rem;
+}
+
+.prev{
+    position: relative;
+    font-size: 2rem;
+    color: $clr--light;
+    left: 1rem;
+    bottom: 11rem;
+}
+
+.next{
+    @extend .prev;
+    left: 116rem;
+}

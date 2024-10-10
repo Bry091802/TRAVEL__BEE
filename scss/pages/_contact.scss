@@ -1,0 +1,118 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.contactBanner {
+  position: relative;
+  &__wrapper {
+    flex-direction: column;
+    @include centerAll;
+  }
+  &__wrapper1 {
+    background: url(../../IMG/bg-to.png);
+    width: 100vw;
+    padding: 10rem 0;
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 5rem;
+    }
+    img {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: 90%;
+    }
+    img:last-child {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: -2%;
+    }
+  }
+}
+
+.contactInfo {
+  padding: 5rem 0;
+  &__wrapper {
+    @include evenGrid(2, 1rem);
+    align-items: center;
+  }
+  &__img {
+    margin-left: 5rem;
+    img {
+      width: 30rem;
+      height: 40rem;
+    }
+  }
+  &__form {
+    padding: 4rem 0;
+    input {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 3.5rem;
+      margin-bottom: 2rem;
+      &::placeholder {
+        padding: 1rem;
+      }
+    }
+    textarea {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 10rem;
+      padding: 1rem;
+    }
+    .button {
+      margin-top: 2rem;
+    }
+  }
+  &__title {
+    h2 {
+      font-size: 3rem;
+      color: $clr--dark;
+      margin-bottom: 2rem;
+    }
+    p {
+      color: $clr--dark;
+      width: 40rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .form__info {
+    @include between;
+    gap: 3rem;
+  }
+  .map {
+    margin-left: 5rem;
+  }
+}
+
+.catalog {
+  padding-top: 8rem;
+  &__title {
+    i {
+      color: $clr--primary;
+      margin-right: 0.5rem;
+    }
+    h4 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__img {
+    display: flex;
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.destinationBanner {
+  position: relative;
+  &__wrapper {
+    flex-direction: column;
+    @include centerAll;
+  }
+  &__wrapper1 {
+    background: url(../../IMG/bg-to.png);
+    width: 100vw;
+    padding: 10rem 0;
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 5rem;
+    }
+    img {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: 90%;
+    }
+    img:last-child {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: -2%;
+    }
+  }
+}
+
+.destinations {
+  padding: 8rem 0;
+  &__title {
+    h2 {
+      color: $clr--dark;
+      font-size: 3rem;
+      @include centerAll;
+    }
+    small {
+      @include centerAll;
+      color: $clr--dark;
+    }
+  }
+  &__cards {
+    margin: 3rem 5rem;
+    width: 75rem;
+    @include evenGrid(4, 2rem);
+    .image3 {
+      height: 22.9rem;
+    }
+  }
+  .button {
+    @include centerAll;
+    margin-left: -6rem;
+  }
+}
+
+.catalog {
+  &__title {
+    i {
+      color: $clr--primary;
+      margin-right: 0.5rem;
+    }
+    h4 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__img {
+    display: flex;
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+}

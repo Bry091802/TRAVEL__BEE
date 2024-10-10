@@ -1,0 +1,374 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.aboutBanner {
+  position: relative;
+  &__wrapper {
+    flex-direction: column;
+    @include centerAll;
+  }
+  &__wrapper1 {
+    background: url(../../IMG/bg-to.png);
+    width: 100vw;
+    padding: 10rem 0;
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 5rem;
+    }
+    img {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: 90%;
+    }
+    img:last-child {
+      position: absolute;
+      width: 15rem;
+      top: 55%;
+      left: -2%;
+    }
+  }
+}
+
+.adventure {
+  background-color: $clr--light;
+  padding: 2rem 5rem;
+  &__title {
+    h2 {
+      color: $clr--dark;
+      font-size: 3rem;
+      margin-bottom: 5rem;
+      margin-left: 5rem;
+    }
+  }
+  &__img {
+    img {
+      position: relative;
+      width: 25rem;
+      border-top-left-radius: 40rem;
+      border-top-right-radius: 40rem;
+    }
+    img:last-child {
+      position: absolute;
+      border-radius: 50%;
+      width: 20rem;
+      border: 1rem solid $clr--light;
+      left: 30.5rem;
+      margin-top: 20rem;
+    }
+  }
+  &__txt {
+    width: 37rem;
+    .p1 {
+      color: $clr--dark;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+    .p2 {
+      color: $clr--dark;
+      line-height: 2rem;
+      margin-bottom: 2rem;
+    }
+    h4{
+        color: $clr--dark;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+    .p3{
+        color: $clr--dark;
+        margin-bottom: 3rem;
+    }
+  }
+  &__card {
+    display: flex;
+    gap: 13rem;
+    margin-left: 5rem;
+  }
+}
+
+.popular {
+  position: relative;
+  // transform: translateY(-0.3rem);
+  background-color: $clr--light;
+  padding: 5rem 0;
+
+  &__title {
+    @include centerAll;
+    flex-direction: column;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      color: $clr--dark;
+    }
+    p {
+      margin-bottom: 3rem;
+      color: $clr--dark;
+    }
+  }
+  &__wrapper--card {
+    @include evenGrid(2, 3rem);
+    padding: 2rem 0;
+  }
+  &__card {
+    display: flex;
+    gap: 1rem;
+    margin-left: 5rem;
+    .img {
+      width: 12rem;
+    }
+    .info {
+      .title {
+        color: $clr--primary;
+        margin-bottom: 0.5rem;
+        &:hover {
+          color: $clr--dark;
+        }
+      }
+      h4 {
+        font-size: 0.9rem;
+        color: $clr--dark;
+      }
+      small {
+        color: $clr--dark;
+        font-size: small;
+        i {
+          margin-right: 0.5rem;
+          margin-bottom: 1rem;
+        }
+      }
+      p {
+        width: 22rem;
+        margin-bottom: 1rem;
+        color: $clr--dark;
+      }
+      a {
+        color: $clr--dark;
+        font-weight: 600;
+        &:hover {
+          color: $clr--primary;
+        }
+      }
+    }
+  }
+}
+
+.destinations {
+  padding: 8rem 0;
+  &__title {
+    h2 {
+      color: $clr--dark;
+      font-size: 3rem;
+      @include centerAll;
+    }
+    small {
+      @include centerAll;
+      color: $clr--dark;
+    }
+  }
+  &__cards {
+    margin: 3rem 5rem;
+    width: 75rem;
+    @include evenGrid(4, 2rem);
+    .image3 {
+      height: 22.9rem;
+    }
+  }
+  .button {
+    @include centerAll;
+    margin-left: -6rem;
+  }
+}
+
+.post {
+  &__wrapper {
+    @include evenGrid(2, 5rem);
+  }
+  &__card {
+    margin-left: 5rem;
+  }
+  &__card1 {
+    position: relative;
+    .top {
+      position: absolute;
+      top: 2rem;
+      left: 32.5rem;
+      .tag {
+        h4 {
+          background: $clr--primary;
+          border: 1px solid transparent;
+          border-radius: 2rem;
+          color: $clr--light;
+          padding: 0.5rem 0.5rem;
+          height: 2.5rem;
+        }
+      }
+      .icon {
+        margin-left: 1rem;
+        i {
+          padding: 1.1rem 1.5rem;
+          border: 1px solid transparent;
+          background-color: $clr--light;
+          color: $clr--dark;
+          width: 4rem;
+          height: 4rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  &__card1--img {
+    img {
+      width: 42rem;
+      height: 25rem;
+      object-fit: cover;
+    }
+  }
+  &__card1--txt {
+    h3 {
+      color: $clr--dark;
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    p {
+      color: $clr--dark;
+      width: 38.7rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+    }
+    h5 {
+      color: $clr--dark;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+  }
+  &__card2 {
+    position: relative;
+    .tag2 {
+      z-index: 999;
+      position: absolute;
+      top: 1rem;
+      left: 13rem;
+      // top: -36.5rem;
+      //  left: 58.5rem;
+      h4 {
+        background: $clr--primary;
+        border: 1px solid transparent;
+        border-radius: 2rem;
+        color: $clr--light;
+        padding: 0.5rem 0.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+  &__card2--img {
+    img {
+      width: 31rem;
+      height: 25rem;
+    }
+  }
+  &__card2--txt {
+    h3 {
+      color: $clr--dark;
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    p {
+      color: $clr--dark;
+      width: 30.7rem;
+    }
+  }
+
+  .column {
+    &__mini {
+      .search {
+        display: flex;
+        align-items: center;
+
+        margin-top: 2.4rem;
+        input {
+          border: 1px solid;
+          width: 26.5rem;
+          height: 3rem;
+          // &::placeholder {
+          //   padding-left: 1rem;
+          // }
+          &:enabled {
+            padding-left: 1rem;
+          }
+        }
+        i {
+          // margin-top: 1rem;
+          background-color: $clr--dark;
+          width: 3rem;
+          height: 3rem;
+          color: $clr--light;
+          font-size: 2rem;
+          padding: 0.5rem;
+        }
+      }
+    }
+    &__card1 {
+      display: flex;
+      gap: 2rem;
+      margin-top: 1.6rem;
+      &--img {
+        width: 10rem;
+        height: 10rem;
+      }
+      &--txt {
+        padding-top: 1.5rem;
+        h5 {
+          color: $clr--primary;
+          margin-bottom: 0.7rem;
+        }
+        h4 {
+          font-size: 1rem;
+          color: $clr--dark;
+          width: 15rem;
+        }
+        .date {
+          margin-top: 0.8rem;
+          p {
+            color: $clr--dark;
+            font-weight: 600;
+            i {
+              margin-right: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.catalog {
+  &__title {
+    i {
+      color: $clr--primary;
+      margin-right: 0.5rem;
+    }
+    h4 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      @include centerAll;
+      color: $clr--dark;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__img {
+    display: flex;
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+}
